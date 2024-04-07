@@ -1,0 +1,28 @@
+body{
+    background-color: #ffecbb;
+    margin-top: 200px;
+    margin-left: 540px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+footer {
+    background-color: black;
+    color: #fff; 
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1px;
+}

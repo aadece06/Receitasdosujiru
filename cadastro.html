@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+<body>
+
+    <header>
+      
+        <div class="interface">
+            
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="receitas.html">Receitas</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                 </ul>
+            </nav>
+
+        </div>
+        
+    </header>
+   
+    <div  class="container">
+        
+        <div class="form-image">
+            <img src="img/undraw_shopping_re_hdd9.svg" alt="">
+        </div>
+
+        <div class="form">
+            <form action="https://formsubmit.co/aadece062@gmail.com" method="POST">
+             <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+             <input type="hidden" name="_autoresponse" value="Obrigado por se cadastrar! Quando houver novas receitas disponível  no site, você receberá uma mensagem de que elas estão no site no seu e-mail."/>
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                     </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="name">Nome completo</label>
+                        <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required >
+                    </div>
+        
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required >
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="cep">Cep</label>
+                        <input type="number" id="cep" name="cep" placeholder="(XXXXX-XXX)" required >
+                    </div>
+        
+                    <div class="input-box">
+                        <label for="rua">Rua</label>
+                        <input type="text" id="rua" name="rua" placeholder="Ex. Rua da navegacão" required >
+                    </div>
+        
+                    <div class="input-box">
+                        <label for="number">N°</label>
+                        <input type="number" id="number" name="number" placeholder="Digite o numero da sua casa" required >
+                    </div>
+        
+                    <div class="input-box">
+                        <label for="complemento">Complemento</label>
+                        <input type="text" id="complemento" name="complemento" placeholder="Ex. Perto de algum lugar">
+                    </div>
+        
+                    <div class="input-box">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade" name="cidade" placeholder="Ex. Salvador" required >
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="uf">Uf</label>
+                        <input type="text" id="uf" name="uf" placeholder="Digite o seu uf" required >
+                    </div>
+
+                    </div>
+
+                        <div class="continue-button">  
+                            <button type="submit">Cadastra</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <h5> <span id="direitos">&copy;</span> Mestre Sujiru 2024</h5>
+    </footer>
+
+</body>
+</html>
